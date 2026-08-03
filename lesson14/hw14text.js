@@ -81,3 +81,7 @@ console.log(isCommander);
 // ### 7. Проверить программу через debugger
 
 // Поставить breakpoint и проверить значения переменных.
+
+
+// git config --global user.email "you@example.com"
+// git config --global user.name "Your Name"
