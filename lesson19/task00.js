@@ -61,10 +61,19 @@ const subtract = (a, b) => a - b;
 const multiply = (a, b) => a * b;
 const divide = (a, b) => (b === 0 ? "Ошибка: деление на 0" : a / b);
 
+ //############################################
+
+ 
+const calculate = (a, b, func) => {
+    return func(a,b); 
+};
+
+// const multiply1=123;
+console.log(calculate(3, 5,multiply));
+
+
+
 // console.log(multiply(3, 3))
-
-//############################################
-
 // const calculate = (a, b, operator) => {
 //   switch (operator) {
 //     case "+":
@@ -81,12 +90,3 @@ const divide = (a, b) => (b === 0 ? "Ошибка: деление на 0" : a / 
 // };
 
 // console.log(calculate(3, 5, "*"))
-
-
-
-
-const calculate = (a, b, func) => {
-    return func(a,b); 
-};
-
-console.log(calculate(3, 5,multiply))
