@@ -1,0 +1,23 @@
+{
+  "name": "l_14",
+  "version": "1.0.0",
+  "description": "",
+  "homepage": "https://github.com/IlyaLifsh/L_14#readme",
+  "bugs": {
+    "url": "https://github.com/IlyaLifsh/L_14/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/IlyaLifsh/L_14.git"
+  },
+  "license": "ISC",
+  "author": "",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "axios": "^1.19.0"
+  }
+}
